@@ -1,37 +1,129 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-<!Doctype HTML>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>My portfolio Website</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </head>
-    <body>
-        <h1>Welcome to my portfolio Website</h1>
-        <h2>I am a Fullstack Web Developer</h2>
-        <hr />
-        <h3><a href="./public/movie-ranking.html" alt="This is a link to the Movie Ranking Project site">Movie Ranking Project</a></h3>
-        <img src="./assets/images/favMovies Project.PNG" alt="This is an image of the  movie-ranking project" height="200" width="200" />
-        <h3><a href="./public/birthday-invite.html" alt="This is a link to birthday-invite Project site">Birthday Project</a></h3>
-        <img src="./assets/images/BirthdayPro.PNG" alt="This is an image of birthday-invite project" height="200" width="200" />
-        <hr />
-        <a href="./public/about.html" alt="About me link">About Me</a>
-        <a href="./public/contact.html" alt="Contact me Link">Contact Me</a>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babagoni PortFolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+<body>
+    
+
+        <!-- Title -->
+        <section id="title">
+            <div class="container col-xxl-8 px-4 pt-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+                  <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./images/Musco Technology.png" class="d-block mx-lg-auto img-fluid" alt="Title-image" width="700" height="500" loading="lazy">
+                  </div>
+                  <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">My names are Babagoni Ibrahim Usman</h1>
+                    <p class="lead">I am a Fullstack Web Developer</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <img class="bgs-img" src="./images/Babagoni.jpg" height="100px" alt="Babagoni-pics"/>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Features -->
+        
+        <section id="features">
+            <div class="container px-4 py-5" id="featured-3">
+                
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                  <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                     <img src="images/feature.png" alt="Skills" height="30"/>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">My Skills</h3>
+                    <p>Web Technology Languages<br/>
+                        Graphical Programming<br/>
+                        Programming Languages<br/>
+                        Communication<br/>
+                        Report Writing</p>
+                    <a href="./myskills.html" class="icon-link">
+                      See more
+                      <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                    </a>
+                  </div>
+                  <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <img src="images/feature 2.png" alt="Experience" height="30"/>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Experience</h3>
+                    <p>National Youth Service Corps (DIP Info-Tech Incubation Center)<br/>
+                       Managing Director- Musco Nigeria Limited(IT Lead Executive)<br/>
+                       City Technology (Assembly Operator)<br/>
+                       Ontrak Recruitment Agnecy (Customer Service)
+                    </p>
+                    <a href="./experience.html" class="icon-link">
+                      See More
+                      <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                    </a>
+                  </div>
+                  <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <img src="images/feature 3.png" alt="Education" height="30"/>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Education</h3>
+                    <p>Post Graduate Diploma in Cybersecurity and Forensic Information Technology(University of Portsmouth)<br/>
+                        BSc in Information Technology(Mahatma Gandhi University)</p>
+                    <a href="./education.html" class="icon-link">
+                      See More
+                      <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Testimonial -->
+        <section id="testimonial">
+            <div class="container" >
+                <div class="dilenna">
+                
+            <div class="left card"><img class="tile-image" src="./images/1.png" alt="Hotel-Web-design">
+                <h3 class="card-title">Beautiful Web Design</h3>
+                <p class="card-text">I develop beautiful websites with explicit feautures of your desires
+                    and very exciting colors.</p>
+              </div>
+          <div class="right card"><img class="tile-image" src="./images/2.png" alt="Dog tinder sample">
+                <h3 class="card-title">An example of Tinder app for Dogs</h3>
+                <p class="card-text">I build modern suiting web application that has beautiful colors that attracts the end user with sustainable security. </p>
+              </div>
+              <div class="right card"><img class="tole-image" src="./images/3.png" alt="Meme Project">
+                <h3 class="card-title">An example of Meme project</h3>
+                <p class="card-text">I also build meme project like this or more. </p>
+              </div>
+        </div>
+    </div>
+</div>
+        
+      
+        </section>
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container ">
+                <footer class=" py-5 mt-5 ">
+                  <ul class="nav justify-content-center ">
+                    <li class="nav-item"><a href="https://www.linkedin.com/in/babagoni-usman-7b3305b1/" class="nav-link px-2 text-body-secondary">Linkdln</a></li>
+                    <li class="nav-item"><a href="https://twitter.com/MRBAGONS" class="nav-link px-2 text-body-secondary">Twitter</a></li>
+                    <li class="nav-item"><a href="./contactme.html" class="nav-link px-2 text-body-secondary">Contact me</a></li>
+                    <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Website</a></li>
+                    
+                  </ul>
+                  <p class="text-center text-body-secondary">© 2023 Musco, Inc</p>
+                </footer>
+              </div>
+      
+        </section>
+      
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
 
 </html>
-
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
